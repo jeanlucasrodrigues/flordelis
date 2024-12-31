@@ -296,6 +296,31 @@ footer{
     margin-bottom: 0;
 }
 
+/*Whatsapp flutuante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-decoration: none;
+  }
+  
+  .whatsapp-float:hover {
+    background-color: #1ebe57;
+  }
+  
+  .whatsapp-float i {
+    font-size: 30px;
+  }
 /*responsividade*/
 
 /*Pequeno notebook ate 1100px*/
