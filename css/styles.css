@@ -73,7 +73,7 @@ nav{
 }
 
 .main-banner{
-    background-image: url("https://github.com/jeanlucasrodrigues/flordelis/blob/f0b148e664d71fdc66ca6c5019d5f1776426f5e7/img/mainbanner2.png");
+    background-image: url("https://github.com/jeanlucasrodrigues/flordelis/blob/f0b148e664d71fdc66ca6c5019d5f1776426f5e7/img/mainbanner2.png"), url("img/mainbanner2.png"), url("/img/mainbanner2.png");
     background-size: cover;
     background-position: center;
     padding: 10rem 0;
