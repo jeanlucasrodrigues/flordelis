@@ -95,7 +95,7 @@ nav{
     font-size: 32px;
 }
 
-/*Servies*/
+/*Services*/
 
 .services-container{
     padding: 5rem 0;
@@ -121,8 +121,8 @@ nav{
 }
 
 .acupuntura-icon{
-    font-size: 60px;
-    margin-bottom:2px;
+    font-size: 55px;
+    margin-bottom:1px;
     
 }
 .fa-hand-holding-heart {
@@ -289,12 +289,34 @@ nav{
 
 /*footer*/
 
-footer{
+footer {
+    background-color: #4b0082; /* Roxo */
     text-align: center;
-    font-weight: bold;
-    margin: 50px 0 100px;
-    margin-bottom: 0;
-}
+    padding: 20px;
+    position: relative;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    color: #fff;
+  }
+  
+  footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  footer .social-links a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  footer .social-links a:hover {
+    color: #ffd700; /* Amarelo */
+  }
 
 /*Whatsapp flutuante */
 .whatsapp-float {
@@ -396,3 +418,13 @@ footer{
         margin: 0px 0;
     }
 }
+
+@media (max-width: 768px) {
+    footer {
+      font-size: 0.9em;
+    }
+  
+    footer .social-links a {
+      font-size: 1.2em;
+    }
+  }
